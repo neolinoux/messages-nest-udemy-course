@@ -1,0 +1,13 @@
+###
+POST http://localhost:3000/messages
+content-Type: application/json
+
+{
+  "content" : "pake DI"
+}
+
+###
+Get http://localhost:3000/messages/75
+
+###
+Get http://localhost:3000/messages
